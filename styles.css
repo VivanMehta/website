@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('19c1ee1cf4832fd108b8160e6089da8d.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px; /* Increased height to accommodate content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity for the blur effect */
+}
+
+.rectangle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.rectangle h1 {
+    margin-bottom: 10px;
+}
+
+.rectangle a {
+    padding: 10px 20px;
+    background-color: #3Z9sW88fFV; /* Changed to a valid color or added a class/id */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white; /* Adding a border around EasyInvites */
+}
